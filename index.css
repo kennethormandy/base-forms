@@ -4,6 +4,7 @@ input,
 select,
 textarea,
 fieldset {
+  font-size: var(--form-field-font-size);
   margin-top: 0;
   margin-bottom: var(--space-1);
 }
@@ -21,25 +22,27 @@ input[type=time],
 input[type=url],
 input[type=week] {
   box-sizing: border-box;
-  height: 2.25em;
-  padding: .25em var(--space-2);
+  height: var(--form-field-height);
+  padding: var(--form-field-padding-y) var(--form-field-padding-x);
+  vertical-align: middle;
   -webkit-appearance: none;
 }
 
 select {
   box-sizing: border-box;
   line-height: 1.75;
-  padding: .25em var(--space-2);
+  padding: var(--form-field-padding-y) var(--form-field-padding-x);
 }
 
 select:not([multiple]) {
-  height: 2.25em;
+  height: var(--form-field-height);
+  vertical-align: middle;
 }
 
 textarea {
   box-sizing: border-box;
   line-height: 1.75;
-  padding: .25em var(--space-2);
+  padding: var(--form-field-padding-y) var(--form-field-padding-x);
 }
 
 .fieldset-reset {
@@ -57,5 +60,9 @@ textarea {
   --space-2: 1rem;
   --space-3: 2rem;
   --space-4: 4rem;
+  --form-field-font-size: 1rem;
+  --form-field-height: 2.25rem;
+  --form-field-padding-y: .5rem;
+  --form-field-padding-x: .25rem;
 }
 
