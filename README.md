@@ -13,7 +13,7 @@ By default, form elements display inline.
 ```html
 <form>
   <label>Search</label>
-  <input type="text" class="field-light">
+  <input type="text" class="mb0 field-light">
   <button class="button-blue">Go</button>
 </form>
 ```
