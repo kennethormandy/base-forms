@@ -6,7 +6,7 @@ textarea,
 fieldset {
   font-size: var(--form-field-font-size);
   margin-top: 0;
-  margin-bottom: var(--space-1);
+  margin-bottom: var(--space-1, .5rem);
 }
 
 input[type=text],
@@ -54,8 +54,6 @@ textarea {
 .fieldset-reset legend {
   padding: 0;
 }
-
-@import 'basscss-defaults';
 
 :root {
   --form-field-font-size: 1rem;

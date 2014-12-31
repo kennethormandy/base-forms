@@ -47,7 +47,7 @@ The use of utilities allows for a lot of flexibility when building form layouts.
 ```
 
 ## Fieldsets
-Fieldsets can be reset with .fieldset-reset to allow for easier styling of the fieldset and legend.
+Fieldsets can be reset with `.fieldset-reset` to allow for easier styling of the fieldset and legend.
 
 ```html
 <form class="sm-col-6">
