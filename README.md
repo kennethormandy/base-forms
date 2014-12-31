@@ -18,7 +18,7 @@ By default, form elements display inline.
 </form>
 ```
 
-##Stacked Forms
+## Stacked Forms
 
 Use `.block` and other utilities to stack form elements.
 The use of utilities allows for a lot of flexibility when building form layouts.
@@ -46,6 +46,7 @@ The use of utilities allows for a lot of flexibility when building form layouts.
 </form>
 ```
 
+## Fieldsets
 Fieldsets can be reset with .fieldset-reset to allow for easier styling of the fieldset and legend.
 
 ```html
@@ -59,5 +60,17 @@ Fieldsets can be reset with .fieldset-reset to allow for easier styling of the f
   </fieldset>
   <button type="sumbit" class="button-blue">Submit</button>
 </form>
+```
+
+## Default Variables
+To customize base form field styles, use the following variables.
+
+```css
+:root {
+  --form-field-font-size: 1rem;
+  --form-field-height: 2.25rem;
+  --form-field-padding-y: .5rem;
+  --form-field-padding-x: .5rem;
+}
 ```
 

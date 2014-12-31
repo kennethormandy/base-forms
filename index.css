@@ -55,11 +55,9 @@ textarea {
   padding: 0;
 }
 
+@import 'basscss-defaults';
+
 :root {
-  --space-1: .5rem;
-  --space-2: 1rem;
-  --space-3: 2rem;
-  --space-4: 4rem;
   --form-field-font-size: 1rem;
   --form-field-height: 2.25rem;
   --form-field-padding-y: .5rem;
