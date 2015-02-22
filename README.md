@@ -14,7 +14,7 @@ By default, form elements display inline.
 <form>
   <label>Search</label>
   <input type="text" class="mb0 field-light">
-  <button class="button-blue">Go</button>
+  <button class="button">Go</button>
 </form>
 ```
 
@@ -41,8 +41,8 @@ The use of utilities allows for a lot of flexibility when building form layouts.
     <input type="checkbox" checked>
     Remember me
   </label>
-  <button type="submit" class="button-blue">Sign In</button>
-  <button type="reset" class="button-gray">Cancel</button>
+  <button type="submit" class="button">Sign In</button>
+  <button type="reset" class="button bg-gray">Cancel</button>
 </form>
 ```
 
@@ -58,7 +58,7 @@ Fieldsets can be reset with `.fieldset-reset` to allow for easier styling of the
     <label>Hot Dog</label>
     <input type="text" class="block full-width field-light">
   </fieldset>
-  <button type="sumbit" class="button-blue">Submit</button>
+  <button type="sumbit" class="button">Submit</button>
 </form>
 ```
 
