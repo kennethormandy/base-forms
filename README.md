@@ -62,15 +62,4 @@ Fieldsets can be reset with `.fieldset-reset` to allow for easier styling of the
 </form>
 ```
 
-## Default Variables
-To customize base form field styles, use the following variables.
-
-```css
-:root {
-  --form-field-font-size: 1rem;
-  --form-field-height: 2.25rem;
-  --form-field-padding-y: .5rem;
-  --form-field-padding-x: .5rem;
-}
-```
 
