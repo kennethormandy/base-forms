@@ -1,6 +1,3 @@
-# Basscss Base Forms
-
-Base form element styles module for Basscss - http://basscss.com
 
 Forms use base styles for their structure with color styles applied to adjust the look and feel.
 This creates a rhythmic consitency among all forms while allowing thematic differences where needed.
