@@ -6,7 +6,7 @@ textarea,
 fieldset {
   font-size: var(--form-field-font-size);
   margin-top: 0;
-  margin-bottom: var(--space-1, .5rem);
+  margin-bottom: 0;
 }
 
 input[type=text],
