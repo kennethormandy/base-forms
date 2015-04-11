@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/basscss/base-forms/issues"
   },
-  "homepage": "https://github.com/basscss/base-forms"
+  "homepage": "https://github.com/basscss/base-forms",
+  "dependencies": {
+    "basscss-defaults": "^2.0.1"
+  }
 }
