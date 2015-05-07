@@ -4,7 +4,9 @@ input,
 select,
 textarea,
 fieldset {
+  font-family: var(--form-field-font-family);
   font-size: var(--form-field-font-size);
+  box-sizing: border-box;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -21,7 +23,6 @@ input[type=tel],
 input[type=time],
 input[type=url],
 input[type=week] {
-  box-sizing: border-box;
   height: var(--form-field-height);
   padding: var(--form-field-padding-y) var(--form-field-padding-x);
   vertical-align: middle;
@@ -29,7 +30,6 @@ input[type=week] {
 }
 
 select {
-  box-sizing: border-box;
   line-height: 1.75;
   padding: var(--form-field-padding-y) var(--form-field-padding-x);
 }
@@ -40,7 +40,6 @@ select:not([multiple]) {
 }
 
 textarea {
-  box-sizing: border-box;
   line-height: 1.75;
   padding: var(--form-field-padding-y) var(--form-field-padding-x);
 }
@@ -56,4 +55,12 @@ textarea {
 }
 
 @import 'basscss-defaults';
+
+:root {
+  --form-field-font-family: inherit;
+  --form-field-font-size: 1rem;
+  --form-field-height: 2.25rem;
+  --form-field-padding-y: .5rem;
+  --form-field-padding-x: .5rem;
+}
 
