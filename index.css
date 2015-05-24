@@ -44,13 +44,14 @@ textarea {
   padding: var(--form-field-padding-y) var(--form-field-padding-x);
 }
 
-.fieldset-reset {
+fieldset {
   padding: 0;
   margin-left: 0;
   margin-right: 0;
   border: 0;
 }
-.fieldset-reset legend {
+
+legend {
   padding: 0;
 }
 
