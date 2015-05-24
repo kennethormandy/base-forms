@@ -11,6 +11,10 @@ fieldset {
   margin-bottom: 0;
 }
 
+label {
+  vertical-align: middle;
+}
+
 input[type=text],
 input[type=date],
 input[type=datetime],
