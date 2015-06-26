@@ -8,12 +8,12 @@ Form element styles are intended to be interoperable with all other utility styl
 
 ## Inline Forms
 By default, form elements follow browser defaults and display inline.
-Note: the `.field-light` style is part of `basscss-color-forms`.
+Note: the `.field` style is part of `basscss-color-forms`.
 
 ```html
 <form>
   <label for="search">Search</label>
-  <input id="search" type="text" class="field-light">
+  <input id="search" type="text" class="field">
   <button class="btn btn-primary">Go</button>
 </form>
 ```
@@ -25,18 +25,18 @@ Use `.block`, `.col-12`, and other layout utilities to stack form elements and a
 ```html
 <form class="sm-col-6">
   <label>Email Address</label>
-  <input type="text" class="block full-width mb1 field-light">
+  <input type="text" class="block col-12 mb1 field">
   <label>Password</label>
-  <input type="password" class="block full-width mb1 field-light">
+  <input type="password" class="block col-12 mb1 field">
   <label>Select</label>
-  <select class="block full-width mb1 field-light">
+  <select class="block col-12 mb1 field">
     <option>Option 1</option>
     <option>Option 2</option>
     <option>Option 3</option>
     <option>Option 4</option>
     <option>Option 5</option>
   </select>
-  <label class="block full-width mb2">
+  <label class="block col-12 mb2">
     <input type="checkbox" checked>
     Remember me
   </label>
@@ -44,22 +44,5 @@ Use `.block`, `.col-12`, and other layout utilities to stack form elements and a
   <button type="reset" class="btn btn-primary black bg-gray">Cancel</button>
 </form>
 ```
-
-## Fieldsets
-Fieldset styles can be reset with `.fieldset-reset` to customize the appearance with other utilities.
-
-```html
-<form class="sm-col-6">
-  <fieldset class="fieldset-reset">
-    <legend class="h3 bold">Fieldset Legend</legend>
-    <label>Hamburger</label>
-    <input type="text" class="block full-width mb1 field-light">
-    <label>Hot Dog</label>
-    <input type="text" class="block full-width mb1 field-light">
-  </fieldset>
-  <button type="sumbit" class="btn btn-primary">Submit</button>
-</form>
-```
-
 To adjust the color of forms, use the styles in `basscss-color-forms` and `basscss-color-forms-dark`.
 
