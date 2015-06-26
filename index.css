@@ -49,17 +49,6 @@ textarea {
   padding: var(--form-field-padding-y) var(--form-field-padding-x);
 }
 
-fieldset {
-  padding: 0;
-  margin-left: 0;
-  margin-right: 0;
-  border: 0;
-}
-
-legend {
-  padding: 0;
-}
-
 @import 'basscss-defaults';
 
 :root {
