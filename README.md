@@ -14,13 +14,13 @@ Note: the `.field-light` style is part of `basscss-color-forms`.
 <form>
   <label for="search">Search</label>
   <input id="search" type="text" class="field-light">
-  <button class="button">Go</button>
+  <button class="btn btn-primary">Go</button>
 </form>
 ```
 
 ## Stacked Forms
 
-Use `.block`, `.full-width`, and other layout utilities to stack form elements and adjust margins.
+Use `.block`, `.col-12`, and other layout utilities to stack form elements and adjust margins.
 
 ```html
 <form class="sm-col-6">
@@ -40,8 +40,8 @@ Use `.block`, `.full-width`, and other layout utilities to stack form elements a
     <input type="checkbox" checked>
     Remember me
   </label>
-  <button type="submit" class="button">Sign In</button>
-  <button type="reset" class="button bg-gray">Cancel</button>
+  <button type="submit" class="btn btn-primary">Sign In</button>
+  <button type="reset" class="btn btn-primary black bg-gray">Cancel</button>
 </form>
 ```
 
@@ -57,7 +57,7 @@ Fieldset styles can be reset with `.fieldset-reset` to customize the appearance 
     <label>Hot Dog</label>
     <input type="text" class="block full-width mb1 field-light">
   </fieldset>
-  <button type="sumbit" class="button">Submit</button>
+  <button type="sumbit" class="btn btn-primary">Submit</button>
 </form>
 ```
 
