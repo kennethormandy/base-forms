@@ -15,6 +15,10 @@ label {
   vertical-align: middle;
 }
 
+label[for] {
+  cursor: pointer;
+}
+
 input[type=text],
 input[type=date],
 input[type=datetime],
@@ -58,4 +62,3 @@ textarea {
   --form-field-padding-y: .5rem;
   --form-field-padding-x: .5rem;
 }
-
